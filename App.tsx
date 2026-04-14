@@ -17,7 +17,7 @@ function App() {
   return (
     <SafeAreaProvider>
       <NavigationContainer>
-        <SafeAreaView style={{ flex: 1 }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: '#020617' }}>
           <AppNavigation />
         </SafeAreaView>
       </NavigationContainer>

@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 //screen
 import HomeScreen from '../screens/HomeScreen';
 import DetailScreen from '../screens/DetailScreen';
+import AnimationScreen from '../screens/AnimationScreen';
 
 type Props = {};
 
@@ -16,6 +17,7 @@ const AppNavigation = (props: Props) => {
       screenOptions={{ headerShown: false }}
     >
       <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Animation" component={AnimationScreen} />
       <Stack.Screen name="Details" component={DetailScreen} />
     </Stack.Navigator>
   );
